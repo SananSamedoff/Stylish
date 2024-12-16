@@ -1,0 +1,318 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+ }
+   header{
+    width: 100%;
+    height: 700px;
+    background:linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(bg-masthead.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+header .btn0{
+    position: fixed;
+    top: 15px;
+    padding: 18px 18px;
+    right: 15px;
+    line-height: 10px;
+    background-color: rgba(143, 121, 45, 1);
+}
+.btn0:hover{
+    background-color:#343a40 ;
+}
+header div{
+    text-align: center;
+    padding: 15%;
+}
+header h1{
+    font-size: 90px;
+}
+header h3{
+    font-size: 28px;
+    padding-bottom: 50px;
+}
+header a{
+    padding: 22px 43px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    background-color: rgb(7, 97, 186);
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+header a:hover{
+    background-color: #1d809f;
+}
+
+.blank1{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.section1{
+    text-align: center;
+    padding: 7%;
+}
+.section1 h3{
+    font-size: 33px;
+}
+.section1 p{
+    font-size: 20px;
+}
+.blank1 .button{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 22px 43px;
+    line-height: 150px;
+    text-decoration: none;
+}
+.blank1 a:hover{
+    background-color: #373b3e;
+}
+
+.blank2{
+    background-color: rgba(29, 128, 159, 1);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 80px;
+}
+.blank2 h4{
+    color: orange;
+}
+.blank2 h1{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 30px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container i{
+    padding: 35px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.container h2{
+    color: white;
+}
+ .container p{
+    color:rgba(255, 255, 255, 0.823) ;  
+}
+.container div{
+   text-align: center;
+}
+
+
+.blank3{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(bg-callout.jpg)
+}
+.blank3 {
+    text-align: center;
+    padding: 12%;
+}
+.blank3 h2{
+    font-size: 55px;
+    color:#212529 ;
+}
+.blank3 a{
+    padding: 20px;
+    width: 150px;
+    height: 50px;
+    background-color:#1d809f ;
+    color: white;
+    text-decoration: none;
+    line-height: 120px;
+    border-radius: 10px;
+}
+.blank3 a:hover{
+    background-color:#0d6783;
+    transition: 0.5s;
+}
+.blank4{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+}
+.container0{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+.container1{
+    width: 40%;
+    height: 400px;
+    background-size: cover;
+    background-image: url(portfolio-1.jpg);
+    position: relative;cursor: pointer;
+}
+.fon1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding-bottom: 88px;
+    padding-left: 75px;
+    position: absolute;
+    z-index: 1;
+
+}
+.container2{
+    width: 40%;
+    height: 400px;
+    background-size: cover;
+    background-image: url(portfolio-2.jpg);
+    background-color: #21252933;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 78px;
+    padding-left: 75px;
+    color: white;
+}
+.container3{
+    width: 40%;
+    height: 390px;
+    background-size: cover;
+    background-image: url(portfolio-3.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+    padding-left: 105px;
+}
+.container4{
+    width: 40%;
+    height: 390px;
+    background-size: cover;
+    background-image: url(portfolio-4.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+    padding-left: 110px;
+}
+.blank4 h4{
+    color: #ECB807;
+}
+.blank4 h1{
+    font-size: 48px;
+}
+.cont1{
+    width: 100%;
+    height: 100%;
+    background-color: #0d6783;
+    position: absolute;
+    opacity: 0;
+}
+.container1:hover .cont1{
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.fon1:hover{
+    clip-path: inset(10px);
+    transition: 1s;
+}
+.blank5{
+    width: 100%;
+    height: 700px;
+    background-color: #1d809f;
+    margin-top: 150px;
+}
+.word{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    padding: 8%;
+    color: white;
+    line-height: 75px;
+}
+.word h2{
+    font-size: 35px;
+}
+.word a{
+    padding: 20px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+.word .btn1{
+    background-color: white;
+}
+.word .btn2{
+    background-color: black;
+    color: white;
+}
+.word .btn:hover{
+    background-color:#c6c7c8 ;
+    transition: 0.3s;
+}
+.word .btnn:hover{
+    background-color:#424649 ;
+    transition: 0.3s;
+}
+.blank6{
+    width: 100%;
+    height: 700px;
+    padding-bottom: 50px;
+}
+.foot{
+    width: 100%;
+    height: 270px;
+    text-align: center;
+    line-height: 90px;
+    padding-top: 70px;
+}
+
+p{
+    font-size: 13px;
+    color: #6c757d;
+}
+.foot a{
+    border: 1px solid;
+    padding: 25px;
+    border-radius: 100%;
+    margin: 4px;
+    background-color: #1d809f;
+    color: white;
+}
+.foot a:hover{
+    background-color: #0d6783;
+    transition: 0.5s;
+}
